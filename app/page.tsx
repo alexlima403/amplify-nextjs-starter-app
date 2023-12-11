@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import styles from './page.module.css'
 import Script from "next/script";
 
@@ -9,9 +8,8 @@ export default function Home() {
     <>
       <Script
         src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
-        strategy="afterInteractive"
       />
-      <Script id="google-analytics" strategy="afterInteractive">
+      <Script id="google-analytics">
         {`
       window.dataLayer = window.dataLayer || [];
       function gtag(){window.dataLayer.push(arguments);}
