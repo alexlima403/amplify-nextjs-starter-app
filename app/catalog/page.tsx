@@ -7,6 +7,11 @@ export const metadata: Metadata = {
 }
 
 export default function Catalog() {
+
+  gtag('event', 'page_view', {
+    page_title: 'Catalog2',
+    page_location: '/catalog2'
+  });
   return (
       <main className={styles.main}>
         <div className={styles.description}>
