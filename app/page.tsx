@@ -15,6 +15,7 @@ export default function Home() {
             Katalog
           </Link>
           </p>
+          v1.0
         </div>
       </main>
   )
