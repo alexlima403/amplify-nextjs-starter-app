@@ -205,3 +205,11 @@
     transform: rotate(0deg);
   }
 }
+
+.bigblock {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: gray;
+  height: 1500px;
+  width: 100%;
+}
